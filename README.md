@@ -1,22 +1,24 @@
-# Python-Game
-tic-tac-toe like game, made in python
+# Python tic-tac-toe CLI Game
 
-'''
-Kanones tou paixnidiou:
-- Skopos toy paixnidiou einai o sxhmatismos oso perissoterwn tetradwn apo ta pionia tou kaue paikth.
-- Enas gyros oloklhrvnetai otan kapoios apo tous dyo paiktes sxhmatisei me ta pionia toy mia tetrada
-  orizontia, kaueta h diagwnia.
-- Me ton sxhmatismo tetradas apo opoiondhopote paikth, prosthuetai enas pontos stis nikes tou sygkekrimenou
-  paikth kai xarakthrizetai nikhths tou gyrou.
-- To paixnidi oloklhrwnetai otan meta apo thn nikh enos paikth kai thn oloklhrwsh tou gyroy, oi paiktes
-  epilejoyn oti den ueloyn na paijoyn ki allo gyro, h otan kata thn diarkeia enos gyrou to tamplo gemisei.
-- An to paixnidi teleiwsei, emfanizetai to teliko skor(o arithmos nikwn toy kaue paikth) kai o 
-  nikhths (o paikths me tous perissoterous nikhmeoys gyrous)
-Dieykriniseis:
-- An thn idia stigmh yparxoyn parapanw apo 4 pionia enos paikth sthn idia dieyuynsh (orizontia, kaueta, diagwnia)
-  tote afairoyntai mono 4 pionia, kai o paikths pairnei 1 ponto (mia nikh dhladh).
-- Otan afairethoyn ta pionia ths nikhthrias tetradas, kai ta pionia ths kaue sthlhs pesoun mia uesh pros ta katw, 
-  opoiadhpote allh tetrada dhmioyrghuei me ta pionia toy 1ou h tou 2ou paikth, ua prosteuei mia nikh sto skor toy antistoixou paikth
-- Otan oi paiktes epilejoun na apouhkeysoun thn  katastash toy paixnidiou se ena arxeio, san onoma tou arxeiou einai apodekto
-  opoiodhpote onoma (xwris ton typo tou arxeiou, px 'onoma1' kai oxi 'onoma1.txt' h 'onoma1.csv')
-'''
+**Κανόνες του παιχνιδιού:**
+
+	- Σκοπός του παιχνιδιού είναι ο σχηματισμός όσο περισσότερων τετράδων από τα πιόνια του κάθε παίκτη.
+
+	- Ένας γύρος ολοκληρώνεται όταν κάποιος από τους δύο παίκτες σχηματίσει με τα πιόνια του μία τετράδα οριζόντια, κάθετα ή 	διαγώνια.
+
+	- Με τον σχηματισμό τετράδας από οποιονδήποτε παίκτη, προστίθεται ένας πόντος στις νίκες του συγκεκριμένου παίκτη και 	χαρακτηρίζεται νικητής του γύρου.
+
+	- Το παιχνίδι ολοκληρώνεται όταν μετά από τη νίκη ενός παίκτη και την ολοκλήρωση του γύρου, οι παίκτες επιλέγουν αν δεν 	θέλουν να παίξουν κι άλλο γύρο, ή όταν κατά τη διάρκεια ενός γύρου το ταμπλό γεμίσει.
+
+	- Όταν το παιχνίδι τελειώσει, εμφανίζεται το τελικό σκορ (ο αριθμός νικών του κάθε παίκτη) και ο νικητής (ο παίκτης με τους 	περισσότερους νικημένους γύρους).
+
+
+**Διευκρινίσεις:**
+
+        - Αν την ίδια στιγμή υπάρχουν περισσότερα από 4 πιόνια ενός παίκτη στην ίδια διεύθυνση (οριζόντια, κάθετα, διαγώνια) τότε 	αφαιρούνται μόνο 4 πιόνια, και ο παίκτης παίρνει 1 πόντο (μία νίκη δηλαδή).
+
+        - Όταν αφαιρεθούν τα πιόνια της νικήτριας τετράδας, και τα πιόνια της κάθε στήλης πέσουν μια θέση προς τα κάτω, οποιαδήποτε 	άλλη τετράδα δημιουργείται με τα πιόνια του 1ου ή του 2ου παίκτη, προστίθεται μία νίκη στο σκορ του αντίστοιχου παίκτη.
+
+        - Όταν οι παίκτες επιλέξουν να αποθηκεύσουν την κατάσταση του παιχνιδιού σε ένα αρχείο, σαν όνομα του αρχείου είναι 	αποδεκτό οποιοδήποτε όνομα (χωρίς τον τύπο του αρχείου, π.χ. 'όνομα1' και όχι 'όνομα1.txt' ή 'όνομα1.csv').
+
+![Screenshot](screenshot.png)
