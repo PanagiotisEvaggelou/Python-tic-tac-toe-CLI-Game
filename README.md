@@ -1,32 +1,40 @@
-# Python tic-tac-toe CLI Game
+# Tic-Tac-Toe
 
-**Κανόνες του παιχνιδιού:**
-
-	- Σκοπός του παιχνιδιού είναι ο σχηματισμός όσο περισσότερων τετράδων από τα πιόνια του κάθε παίκτη.
-
-	- Ένας γύρος ολοκληρώνεται όταν κάποιος από τους δύο παίκτες σχηματίσει με τα πιόνια του μία τετράδα 
- 	οριζόντια, κάθετα ή διαγώνια.
-
-	- Με τον σχηματισμό τετράδας από οποιονδήποτε παίκτη, προστίθεται ένας πόντος στις νίκες του συγκεκριμένου 
- 	παίκτη και χαρακτηρίζεται νικητής του γύρου.
-
-	- Το παιχνίδι ολοκληρώνεται όταν μετά από τη νίκη ενός παίκτη και την ολοκλήρωση του γύρου, οι παίκτες 
- 	επιλέγουν αν δεν θέλουν να παίξουν κι άλλο γύρο, ή όταν κατά τη διάρκεια ενός γύρου το ταμπλό γεμίσει.
-
-	- Όταν το παιχνίδι τελειώσει, εμφανίζεται το τελικό σκορ (ο αριθμός νικών του κάθε παίκτη) και ο νικητής 
- 	(ο παίκτης με τους περισσότερους νικημένους γύρους).
+A Tic-Tac-Toe like game made in python
 
 
-**Διευκρινίσεις:**
+## Game Rules:
 
-        - Αν την ίδια στιγμή υπάρχουν περισσότερα από 4 πιόνια ενός παίκτη στην ίδια διεύθυνση (οριζόντια, κάθετα, διαγώνια) 
-	τότε αφαιρούνται μόνο 4 πιόνια, και ο παίκτης παίρνει 1 πόντο (μία νίκη δηλαδή).
+- The objective of the game is to form as many quadruples as possible with the pawns of each player.
 
-        - Όταν αφαιρεθούν τα πιόνια της νικήτριας τετράδας, και τα πιόνια της κάθε στήλης πέσουν μια θέση προς τα κάτω, 
-	οποιαδήποτε άλλη τετράδα δημιουργείται με τα πιόνια του 1ου ή του 2ου παίκτη, προστίθεται μία νίκη στο σκορ 
-  	του αντίστοιχου παίκτη.
+- A round is completed when one of the two players forms a quadruple with their pawns either horizontally, vertically, or diagonally.
 
-        - Όταν οι παίκτες επιλέξουν να αποθηκεύσουν την κατάσταση του παιχνιδιού σε ένα αρχείο, σαν όνομα του αρχείου είναι 
-	αποδεκτό οποιοδήποτε όνομα (χωρίς τον τύπο του αρχείου, π.χ. 'όνομα1' και όχι 'όνομα1.txt' ή 'όνομα1.csv').
+- Upon forming a quadruple by any player, a point is added to the score of that specific player, and that player is declared the winner of the round.
+
+- The game ends when, after a player's win and the completion of a round, the players choose not to play another round, or when during a round the board is filled.
+
+- Upon the game's completion, the final score (the number of wins of each player) and the winner (the player with the most wins) are displayed.
+
+- If at the same time there are more than 4 pawns of a player in the same direction (horizontal, vertical, diagonal), then only 4 pawns are removed, and the player earns 1 point (one win).
+
+- When the pawns of the winning quadruple are removed, and the pawns of each column move one position down, any other quadruple formed with the pawns of the 1st or 2nd player adds one win to the score of the corresponding player.
+
+- When the players choose to save the game's state in a file, any name is accepted for the file name (without the file type, e.g., 'name1' and not 'name1.txt' or 'name1.csv').
+
+
+
+## Installation
+
+1. Download the project directories
+2. Ensure python 3 is installed
+3. Run tic-tac-toe-game.py file 
+
+```bash
+  python tic-tac-toe-game.py
+```
+
+## Screenshots
 
 ![Screenshot](screenshot.png)
+
+
