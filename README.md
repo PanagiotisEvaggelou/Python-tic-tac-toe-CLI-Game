@@ -1,6 +1,6 @@
 # Tic-Tac-Toe
 
-A Tic-Tac-Toe like game made in python
+A Tic-Tac-Toe like game made in python, able to run in command line.
 
 
 ## Game Rules:
