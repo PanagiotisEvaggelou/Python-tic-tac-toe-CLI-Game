@@ -35,6 +35,6 @@ A Tic-Tac-Toe like game made in python
 
 ## Screenshots
 
-![Screenshot](screenshot.png)
+![Screenshot](img/screenshot.png)
 
 
